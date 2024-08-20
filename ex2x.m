@@ -1,0 +1,10 @@
+clc;
+clear all;
+close all;
+rows = [2 9];
+columns = [5 2];
+matrix = [rows;columns];
+figure;
+imshow(matrix,[]);
+title('2D Matrix Visualization using imshow');
+colorbar;

@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+A = [7, 8, 9;
+7, 5, 2;
+3, 4, 1];
+rank = rank(A);
+fprintf("The rank of the matrix is: d\n", rank);
+eigenvalues = eig(A);
+disp("The eigenvalues of the matrix are: ");
+disp(eigenvalues);
